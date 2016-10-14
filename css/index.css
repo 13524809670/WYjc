@@ -1,0 +1,354 @@
+body{
+	text-shadow:1px 1px 1px #999;
+}
+a:focus{outline: none;}
+h3{
+	font-weight: 400;
+	font-size: 18px;
+	color:#222;
+	text-indent: -11px;
+}
+.main{
+	position: absolute;
+	width:1920px;
+	left:50%;
+	top:0;
+	margin-left: -960px;
+}
+/*head 样式*/
+.header_wrap{
+	width: 1105px;
+	margin:0 auto;
+	height: 103px;
+	line-height: 100px;
+}
+.header_wrap img{
+	display: block;
+	width:114px;
+	height: 70px;
+	float: left;
+	margin:15px 0;
+}
+.header_wrap .fr_nav{
+	width: 556px;
+	float: right;
+	margin:30px 0;
+}
+.header_wrap .fr_nav li{
+	float: left;
+	margin-left:1px;
+}
+.header_wrap .fr_nav li,
+.header_wrap .fr_nav li a{
+	width: 110px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	display: block;
+	color:#222;
+}
+.header_wrap .fr_nav li .on{
+	background: #00e7ff;
+}
+.header_wrap .fr_nav li a:hover{
+	background: #00e7ff;
+}
+
+
+/*banner 样式*/
+.banner{
+	position: relative;
+	left:50%;
+	top:0px;
+	margin-left:-960px;
+	width: 1920px;
+}
+.banner .banner_pic{
+	width: 100%;
+	height:520px;
+	position: absolute;
+	z-index: 1;
+}
+.banner .banner_text{
+	position: absolute;
+	width: 280px;
+	height: 120px;
+	z-index: 99;
+	left: 1270px;
+	top:345px;
+}
+.banner .banner_btn{
+	width: 140px;
+	margin:0 auto;
+	position: absolute;
+	left:50%;
+	margin-left: -65px;
+	top:483px;
+	z-index: 99;
+}
+.banner li{
+	float: left;
+	margin-right:10px;
+}
+
+
+/*product 样式*/
+.product{
+	width: 100%;
+	text-align: center;
+	margin:580px auto 35px;
+}
+.product h3,
+.about h3,
+.news h3,
+.contact h3{
+	font-weight: 400;
+	font-size: 18px;
+	color:#222;
+	text-indent: -11px;
+	text-align: center;
+}
+.product .border,
+.about .border,
+.news .border,
+.contact .border{
+	width: 100%;
+	margin-top: -30px;
+}
+
+.product .content{
+	width: 1200px;
+	margin:50px auto 0;
+}
+.product .content .img_wrap{
+	width: 229px;
+	height: 213px;
+	float: left;
+}
+.product .content img{
+	width: 100%;
+	height: 180px;
+	border:0;
+}
+.product .content span{
+	display: block;
+	width: 100%;
+	height: 33px;
+	line-height: 33px;
+	background: #ccc;
+	color: #222;
+	text-shadow:1px 1px 1px #999;
+}
+.product .content .black{
+	background: #000;
+	color:#fff;
+}
+.product .content span:hover{
+	background: #000;
+	color:#fff; 
+}
+.product .content .img_two{
+	margin:0 94px;
+}
+.product .content .img_last{
+	margin-right:95px;
+}
+
+
+/*about 样式*/
+.about{
+	width:100%;
+	background: #f8f8f8;
+	text-align: center;
+	padding-top: 40px;
+}
+.about_con{
+	width: 1052px;
+	margin:30px auto 55px;
+	padding-bottom: 57px;
+}
+.about_con p{
+	font-size: 14px;
+	/*text-indent: em;*/
+	line-height: 30px; 
+	text-align: center;
+	text-shadow:1px 1px 1px #999;
+}
+.about_con img{
+	width: 454px;
+	height: 109px;
+	display: block;
+	margin: 25px auto 10px;
+}
+.about_con span{
+	width: 68px;
+	height: 20px;
+	display: block;
+	text-align: center;
+	line-height: 20px;
+	border:2px solid #555;
+	margin:0 auto;
+}
+.about_con a{
+	font-size: 16px;
+	color: #222;
+	font-weight: 600;
+}
+
+
+/*news 样式*/
+.news{
+	width: 100%;
+	margin-bottom:40px;
+}
+.news .news_con{
+	width: 1200px;
+	margin:0 auto 56px;
+}
+.news_con .con_one{
+	width: 490px;
+	float: left;
+	padding-top: 50px;
+}
+.news_con .con_one img{
+	width: 210px;
+	height: 125px;
+	display: block;
+	float: left;
+}
+.news_con .fr_txt p,
+.news_con .fr_txt a{
+	font-size: 14px;
+	color: #222;
+}
+.news_con .fr_txt{
+	width:250px;
+	float: left;
+	height: 138px;
+	margin-left: 24px;
+}
+.news_con .margin{
+	margin-right: 150px;
+}
+.news_con .fr_txt .link{
+	margin-top: 36px;
+}
+.news_con .fr_txt .link_last{
+	margin-top: 36px;
+}
+.news_con .link span{
+	padding:0 10px 0 20px;
+}
+.news_con .fr_txt a:hover{
+	color: blue;
+}
+.news_con .last p{
+	text-indent: 15px;
+	line-height: 27px;
+}
+
+.contact{
+	width: 100%;
+	padding-bottom: 40px;
+	background: #f8f8f8;
+	padding-top: 25px;
+	/*position: relative;*/
+}
+.contact .contact_con{
+	width: 1200px;
+	margin:0 auto;
+}
+.contact_con .left,
+.contact_con .middle,
+.contact_con .right{
+	float: left;
+	width: 397px;
+	line-height: 26px;
+	height: 160px;
+}
+.contact_con .middle{
+	border-left:2px solid #999;
+	border-right:2px solid #999;
+}
+.contact_con p,
+.contact_con p span{
+	font-size: 14px;
+	color: #222;
+}
+.contact_con .left .first_p,
+.contact_con .middle .first_p{
+	padding-top: 20px;
+}
+
+.contact_con .left p,
+.contact_con .middle p,
+.contact_con .right p{
+	padding-left: 25px;
+}
+.contact_con .right img{
+	vertical-align: top;
+	width: 33px;
+	height: 33px;
+	display: block;
+	float: left;
+	padding-right: 30px;
+	padding-top: 8px;
+}
+.contact_con .right li{
+	vertical-align: top;
+}
+.contact_con ul{
+	float: left;
+}
+.contact_con li{
+	font-size: 14px ;
+	color:#222;
+}
+.contact .gotop{
+	display: block;
+	position: fixed;
+	bottom:110px;
+	right:313px;
+	height: 40px;
+	width: 37px;
+}
+
+/*底部样式*/
+.footer{
+	width: 100%;
+	background: #89d7df;
+}
+.footer_wrap{
+	width: 1200px;
+	margin:0 auto;
+	padding-top: 37px;
+	text-align: center;
+}
+.footer ul{
+	font-size: 14px;
+	color:#222;
+	width: 44%;
+	margin: 0 auto;
+}
+.footer li{
+	float: left;
+}
+.footer li .first_a{
+	margin-left: 28px;
+	display: block;
+}
+.footer li span{
+	padding:0 13px;
+}
+.footer p{
+	font-size: 14px;
+	color: #222;
+	padding:10px 0 20px 28px;
+}
+.footer li a{
+	font-size: 14px;
+	color:#222;
+}
+.footer li:hover a{
+	color: blue;
+}
