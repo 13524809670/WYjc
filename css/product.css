@@ -1,0 +1,177 @@
+.pro_con{
+	width:1200px;
+	margin:560px auto 20px;
+	text-align: center;
+}
+.pro_con h3{
+	padding-left: 10px;
+}
+.pro_con h4{
+	font-size: 16px;
+	font-weight: 200;
+}
+.pro_con .border_solid{
+	width: 53px;
+	border: 2px solid #555;
+	display: block;
+	margin: 5px auto 35px;
+}
+.pro_con ul li{
+	float: left;
+}
+.pro_wrap{
+	width: 100%;
+	height: 46px;
+	border-top: 2px solid #999;
+}
+.pro_wrap .pro_nav{
+	width:776px;
+	margin:0 auto;
+}
+.pro_nav li a{
+	width: 57px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	color: #222;
+	display: block;
+}
+.pro_nav .padding{
+	margin:0 62px;
+}
+.pro_nav img{
+	width:22px;
+	display: block;
+	margin: 0 20px;
+	height: 16px;
+}
+.pro_wrap .border{
+	/*display: block;*/
+	width: 100%;
+	margin-top: -58px;
+}
+.pro_pic{
+	clear: both;
+	width: 100%;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+.pro_pic li .margin{
+	margin:0 91px;
+}
+.pro_pic li a{
+	width: 165px;
+	height: 210px;
+	font-size: 14px;
+	color: #222;
+	display: block;
+}
+.pro_pic li a img{
+	width: 165px;
+	height: 170px;
+	display: block;
+	border:solid #888 2px;
+	margin-bottom: 20px;
+}
+.pro_pic .left{
+	margin-left: 10px;
+}
+
+/*分页样式*/
+.pro_pages{
+	width: 155px;
+	margin:20px auto 0;
+}
+.pro_pages li a {
+	width: 30px;
+	height: 32px;
+	border:1px solid #999;
+	display: block;
+	line-height: 32px;
+	text-align: center;
+}
+.pro_pages .left_right{
+	margin:0 14px;
+}
+.pro_pages .none{
+	border:none;
+}
+.pro_pages .bgcolor{
+	background: #999;
+	color: #fff;
+}
+.pro_pages li a:hover{
+	background: #999;
+	color: #fff;
+}
+
+.mainbody{
+	width:100%;
+	background: #f8f8f8;
+}
+.con_wrap{
+	width:1200px;
+	margin:0 auto 60px;
+}
+
+.con_wrap .fl_con,
+.con_wrap .fr_pic{
+	float: left;
+}
+.con_wrap .fr_pic{
+	width: 280px;
+	height: 440px;
+	display: block;
+	padding-top:40px;
+	margin-left: 110px;
+	padding-bottom: 45px;
+}
+.con_wrap .fl_con{
+	width:780px;
+	padding-top: 60px;
+	margin-left: 10px;
+	/*padding-bottom: 45px;*/
+}
+.fl_con h2{
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 10px;
+}
+.fl_con .sub{
+	font-size: 15px;
+	color: #999;
+	display: block;
+	margin-bottom: 50px;
+}
+table{
+	text-align: left;
+}
+table caption{
+	text-align: left;
+	font-size: 16px;
+}
+table caption img{
+	display: block;
+}
+table td{
+	font-size: 15px;
+}
+table td img{
+	padding-right: 15px;
+}
+.first_ul{
+	margin-bottom: 75px;
+}
+.first_ul .indent{
+	text-indent: -15px;
+}
+.last_ul .indent{
+	text-indent: -28px;
+}
+table td a:hover{
+	color: blue;
+}
+table .right{
+	margin:0 50px;
+	display: block;
+}

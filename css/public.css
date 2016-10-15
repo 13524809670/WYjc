@@ -23,7 +23,9 @@ ul{list-style-type: none;}
 a { 
 	text-decoration:none;
 	vertical-align:baseline; 
-	cursor:pointer; }  
+	cursor:pointer;
+	color: #222;
+}  
 body { 
 	word-wrap:break-word; 
 	word-break:break-all; 
