@@ -5,6 +5,43 @@
 	<title>联系我们</title>
 	<link rel="stylesheet" href="css/public.css" />
 	<link rel="stylesheet" href="css/contact.css" />
+	<style type="text/css">
+		.banner{
+			position: relative;
+			left:50%;
+			top:0px;
+			margin-left:-960px;
+			width: 1920px;
+		}
+		.banner .banner_pic{
+			width: 100%;
+			height:520px;
+			position: absolute;
+			z-index: 1;
+		}
+		.banner .banner_txt{
+			position: absolute;
+			width: 280px;
+			height: 370px;
+			z-index: 99;
+			left: 1250px;
+			top:95px;
+		}
+		.banner .banner_btn{
+			width: 140px;
+			margin:0 auto;
+			position: absolute;
+			left:50%;
+			margin-left: -65px;
+			top:483px;
+			z-index: 99;
+		}
+		.banner li{
+			float: left;
+			margin-right:10px;
+		}
+
+	</style>
 </head>
 <body>
 	<div class="main">
@@ -24,25 +61,25 @@
 
 		<!-- 轮播图结构 -->
 		<div class="banner">
-			<ul class="banner_pic">
+			<ul>
 				<li>
 					<a href="#">
-						<img src="images/index_banner_02.jpg" alt="" class="banner_pic">
+						<img src="images/contact.banner_02.jpg" alt="" class="banner_pic"/>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="images/index_banner_02.jpg" alt="" class="banner_pic">
+						<img src="images/contact.banner_02.jpg" alt="" class="banner_pic"/>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="images/index_banner_02.jpg" alt="" class="banner_pic">
+						<img src="images/contact.banner_02.jpg" alt="" class="banner_pic"/>
 					</a>
 				</li>
 			</ul>
-			<div class="banner_text">
-				<img src="images/banner_txt_03.png" alt="" />
+			<div class="banner_txt">
+				<img src="images/banner.text_03.png" alt="" />
 			</div>
 			<ul class="banner_btn">
 				<li><img src="images/public_03.png" alt=""></li>
@@ -50,6 +87,22 @@
 				<li><img src="images/index_btn_06.png" alt=""></li>
 			</ul>
 		</div>
+
+		<!-- 底部结构  -->
+		<!-- <div class="footer">
+			<div class="footer_wrap">
+				<ul>
+					<li><a href="#" class="first_a">人力资源<span>|</span></a></li>
+					<li><a href="#">新闻中心<span>|</span></a></li>
+					<li><a href="#">网络销售<span>|</span></a></li>
+					<li><a href="#">运营商加盟<span>|</span></a></li>
+					<li><a href="#">联系我们<span>|</span></a></li>
+					<li><a href="#">网站地图</a></li>
+					<div class="clear"></div>
+					<span class="last_span">版权为今驰卫浴建材有限公司所有@2013闽ICP备11009004号-1</span>
+				</ul>
+			</div>
+		</div> -->
 	</div>
 </body>
 </html>

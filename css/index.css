@@ -307,14 +307,14 @@ h3{
 .contact .gotop{
 	display: block;
 	position: fixed;
-	bottom:110px;
+	bottom:101px;
 	right:313px;
 	height: 40px;
 	width: 37px;
 }
 
 /*底部样式*/
-.footer{
+/*.footer{
 	width: 100%;
 	background: #89d7df;
 }
@@ -351,4 +351,4 @@ h3{
 }
 .footer li:hover a{
 	color: blue;
-}
+}*/

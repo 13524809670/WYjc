@@ -1,0 +1,147 @@
+.body_wrap{
+	width:1200px;
+	margin:580px auto 0;
+	padding-bottom: 45px;
+}
+.body_wrap .first_ul{
+	width: 630px;
+	margin:0 auto 90px;
+}
+.first_ul li{
+	float: left;
+}
+.first_ul a{
+	display: block;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: center;
+	color: #888;
+}
+.first_ul .margin{
+	margin: 0 180px;
+}
+.first_ul .on{
+	color: #222;
+}
+.first_ul li a:hover{
+	color: #222;
+}
+ 
+.body_wrap .first_p{
+	text-align: center;
+	margin-bottom:30px;
+	font-size: 14px;
+}
+.first_p img{
+	margin:0 20px;
+}
+
+
+
+.body_wrap .img_con{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+.img_con img{
+	display: block;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.img_con .mask{
+	position: absolute;
+	left:0;
+	bottom:0;
+	width: 100%;
+	height: 120px;
+	background: #000;
+	-moz-opacity:0.4;
+	-khtml-opacity: 0.4;
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+    text-align: center;
+}
+.mask p{
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 25px;
+}
+
+
+
+.body_wrap .title{
+	width: 600px;
+	height: 80px;
+	background: #ccc;
+	text-align: center;
+	margin:30px auto 2px;
+}
+.title p{
+	font-size: 16px;
+	color:#222;
+	text-align: center;
+}
+.title .ma_top{
+	padding-top:25px;
+}
+.title img{
+	margin:0 10px;
+	width: 5px;
+	height: 5px;
+}
+.border_icon{
+	width: 0;
+	height: 0;
+	margin:0 auto 15px;
+	border-left:8px solid transparent;
+	border-right:8px solid transparent;
+	border-top:12px solid #222;
+}
+
+.conente img{
+	width: 422px;
+	height: 422px;
+	display: block;
+}
+.content p{
+	font-size: 16px;
+	width: 530px;
+	margin-top: 130px;
+	line-height: 28px;
+	text-align: left;
+}
+.content span{
+	width: 160px;
+	border:1px solid #222;
+	display: block;
+	margin-bottom: 30px;
+}
+.fr_text img,.fl_text p{
+	float: left;
+	margin-left: 70px;
+}
+.fl_text img,.fr_text p{
+	float: right;
+	margin-right: 70px;
+}
+.solid{
+	border:1px solid #ccc;
+	width: 1150px;
+	margin:0 auto;
+}
+.slide p{
+	width: 1200px;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;
+	margin:0 auto;
+	font-size: 16px;
+}
+.slide .last{
+	border-bottom:3px solid #ccc;
+}
