@@ -5,6 +5,8 @@
 	<title>产品详情</title>
 	<link rel="stylesheet" href="css/public.css" />
 	<link rel="stylesheet" href="css/pro_details.css" />
+	<script type="text/javascript" src="js/Carousel.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body>
 	<div class="main">
@@ -12,11 +14,11 @@
 		<div class="header_wrap">
 			<div class="logo"><a href="index.html"><img src="images/public_a_03.png" alt="" class="fl_logo"></a></div>
 			<ul class="fr_nav">
-				<li><a href="#">首页</a></li>
-				<li><a href="#">公司介绍</a></li>
-				<li><a href="#">新闻中心</a></li>
-				<li><a href="#" class="on">产品中心</a></li>
-				<li><a href="#">联系我们</a></li>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="about.html">公司介绍</a></li>
+				<li><a href="news.html">新闻中心</a></li>
+				<li><a href="product.html">产品中心</a></li>
+				<li><a href="contact.html">联系我们</a></li>
 			</ul>
 		</div>
 		<!-- 清除浮动 -->
@@ -24,46 +26,49 @@
 
 		<!-- 轮播图结构 -->
 		<div class="banner">
-			<ul class="banner_pic">
+			<ul class="pic_box">
 				<li>
-					<a href="#">
-						<img src="images/index_banner_02.jpg" alt="" class="banner_pic">
+					<a href="index.html">
+						<img src="images/contact.banner_02.jpg" alt="" />
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<img src="images/index_banner_02.jpg" alt="" class="banner_pic">
+					<a href="about.html">
+						<img src="images/index_banner_02.jpg" alt="" />
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<img src="images/index_banner_02.jpg" alt="" class="banner_pic">
+					<a href="produxt.html">
+						<img src="images/news_banner_02.jpg" alt="" />
 					</a>
 				</li>
 			</ul>
-			<div class="banner_text">
-				<img src="images/banner_txt_03.png" alt="" />
-			</div>
 			<ul class="banner_btn">
-				<li><img src="images/public_03.png" alt=""></li>
-				<li><img src="images/index_btn_06.png" alt=""></li>
-				<li><img src="images/index_btn_06.png" alt=""></li>
+				<li class="current"></li>
+				<li></li>
+				<li></li>
 			</ul>
 		</div>
+
 		<div class="mainbody">
 			<div class="body_wrap">
 				<ul class="first_ul">
 					<li><a href="#" class="on">产品详情</a></li>
 					<li><a href="#" class="margin">在线联系</a></li>
 					<li><a href="#">产品参数</a></li>
+					<div class="clear"></div>
 				</ul>
-				<div class="clear"></div>
-				<p class="first_p"><img src="images/pro_border_03.png" alt="">经得起品质考验，更能演绎英伦时尚<img src="images/pro_border_05.png" alt=""></p>
+				<p class="first_p">
+					<img src="images/pro_border_03.png" alt="">经得起品质考验，更能演绎英伦时尚
+					<img src="images/pro_border_05.png" alt="">
+				</p>
 				<div class="img_con">
-					<img src="images/pro_details_03.jpg" alt="">
+					<a href="product.html" id="click"><img src="images/pro_details_03.jpg" alt=""></a>
 					<div class="mask">
-						<p>现代柜-肖邦白</p>
-						<p>精细作品&nbsp;&nbsp;优美演绎&nbsp;&nbsp;娴白&nbsp;&nbsp;直白&nbsp;&nbsp;是肖邦白给人最直观的印象</p>
+						<a href="product.html">
+							<span class="top" >现代柜-肖邦白</span>
+							<span>精细作品&nbsp;&nbsp;优美演绎&nbsp;&nbsp;娴白&nbsp;&nbsp;直白&nbsp;&nbsp;是肖邦白给人最直观的印象</span>
+						</a>
 					</div>
 				</div>
 				<div class="title">
@@ -119,17 +124,51 @@
 		<div class="footer">
 			<div class="footer_wrap">
 				<ul>
-					<li><a href="#" class="first_a">人力资源<span>|</span></a></li>
-					<li><a href="#">新闻中心<span>|</span></a></li>
-					<li><a href="#">网络销售<span>|</span></a></li>
-					<li><a href="#">运营商加盟<span>|</span></a></li>
-					<li><a href="#">联系我们<span>|</span></a></li>
-					<li><a href="#">网站地图</a></li>
+					<li>
+						<a href="about.html">人力资源
+							<span>|</span>
+						</a>
+					</li>
+					<li>
+						<a href="news.html">新闻中心
+							<span>|</span>
+						</a>
+					</li>
+					<li>
+						<a href="conduct.html">网络销售
+							<span>|</span>
+						</a>
+					</li>
+					<li>
+						<a href="conduct.html">运营商加盟
+							<span>|</span>
+						</a>
+					</li>
+					<li>
+						<a href="conduct.html">联系我们
+							<span>|</span>
+						</a>
+					</li>
+					<li><a href="conduct.html">网站地图</a></li>
 					<div class="clear"></div>
 					<span class="last_span">版权为今驰卫浴建材有限公司所有@2013闽ICP备11009004号-1</span>
 				</ul>
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(".img_con").hover(function(){
+			$(".mask").stop().animate({top:"400px"},{queue:false,duration:100});
+		},
+		function(){
+			$(".mask").stop().animate({top:"450px"},{queue:false,duration:100});
+		});
+
+		$(".fr_nav li").eq(3).css("background","#00e7ff");
+		$(".fr_nav li a").eq(3).css("color","#fff")
+	});
+
+	</script>
 </body>
 </html>

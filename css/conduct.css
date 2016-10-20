@@ -1,1 +1,163 @@
+/*轮播图字体微调样式*/
 
+/*.banner .banner_txt{
+	position: absolute;
+	width: 280px;
+	height: 370px;
+	z-index: 99;
+	left: 1250px;
+	top:95px;
+}*/
+
+
+.mainbody{
+	width: 1200px;
+	margin:70px auto 0;
+}
+.link_button{
+	width: 100%;
+	text-align: center;
+}
+.link_button li{
+	float: left;
+}
+.link_button a{
+	display: block;
+	width: 192px;
+	height: 71px;
+	line-height: 71px;
+	font-size: 16px;
+	border:1px solid #999;
+}
+.link_button .selected{
+	color: #fff;
+	background: #777;
+}
+.link_button .margin{
+	margin:0 309px;
+}
+.link_button li a:hover{
+	background:#777;
+	color:#fff;
+}
+
+
+.icon {
+	width: 100%;
+	margin:90px auto 0;
+	font-size: 14px;
+	text-align: center;
+}
+.icon li{
+	float: left;
+}
+.icon a{
+	width:190px;
+	display: block;
+}
+.icon img{
+	margin:0 auto;
+}
+.icon img,.icon span{
+	display: block;
+}
+.icon span{
+	padding-top: 33px;
+}
+
+.icon .distance{
+	margin:0 144px;
+}
+.icon .distance_left{
+	margin-left: 144px;
+	margin-top: -30px;
+}
+.icon .distance_left .last_span{
+	line-height: 30px;
+}
+
+form{
+	width: 526px;
+	margin:100px auto 20px;
+	font-size: 16px;
+}
+
+form .left,form .right{
+	width:243px;
+	height: 38px;
+	line-height: 38px;
+	border:1px solid #ccc;
+	text-indent: 8px;
+}
+form .left{
+	float: left;
+}
+form .right{
+	float: right;
+}
+textarea{
+	width: 100%;
+	height: 148px;
+	margin:30px 0 35px 0;
+	border:1px solid #ccc;
+	resize:none;
+	overflow: hidden;
+	padding-top: 8px;
+	text-indent: 8px;
+}
+form img{
+	width: 76px;
+	height: 28px;
+	border:1px solid #ccc;
+}
+form .middle{
+	width: 63px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	margin:0 82px 0 21px;
+	border:1px solid #ccc;
+}
+form .submit{
+	width: 270px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #888;
+	border:1px solid #ccc;
+	color:#fff;
+	font-family: "微软雅黑";
+	font-weight: 600;
+}
+form .submit:hover{
+	background: #00c2ff;
+}
+form .submit:active{
+	background: #000;
+}
+
+
+.footer{
+	margin-top: 50px;
+}
+
+/*地图样式*/
+/*.iw_poi_title {
+	color:#CC5522;
+	font-size:14px;
+	font-weight:bold;
+	overflow:hidden;
+	padding-right:13px;
+	white-space:nowrap;
+}
+ .iw_poi_content {
+ 	font:12px arial,sans-serif;
+ 	overflow:visible;
+ 	padding-top:4px;
+ 	white-space:-moz-pre-wrap;
+ 	word-wrap:break-word;
+ }*/
+
+
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}

@@ -1,6 +1,6 @@
 .pro_con{
 	width:1200px;
-	margin:560px auto 20px;
+	margin:70px auto 20px;
 	text-align: center;
 }
 .pro_con h3{
@@ -36,6 +36,9 @@
 	color: #222;
 	display: block;
 }
+.pro_nav li a:hover{
+	color: blue;
+}
 .pro_nav .padding{
 	margin:0 62px;
 }
@@ -45,8 +48,8 @@
 	margin: 0 20px;
 	height: 16px;
 }
+
 .pro_wrap .border{
-	/*display: block;*/
 	width: 100%;
 	margin-top: -58px;
 }
@@ -66,6 +69,9 @@
 	color: #222;
 	display: block;
 }
+.pro_pic li a:hover{
+	color: blue;
+}
 .pro_pic li a img{
 	width: 165px;
 	height: 170px;
@@ -77,33 +83,6 @@
 	margin-left: 10px;
 }
 
-/*分页样式*/
-.pro_pages{
-	width: 155px;
-	margin:20px auto 0;
-}
-.pro_pages li a {
-	width: 30px;
-	height: 32px;
-	border:1px solid #999;
-	display: block;
-	line-height: 32px;
-	text-align: center;
-}
-.pro_pages .left_right{
-	margin:0 14px;
-}
-.pro_pages .none{
-	border:none;
-}
-.pro_pages .bgcolor{
-	background: #999;
-	color: #fff;
-}
-.pro_pages li a:hover{
-	background: #999;
-	color: #fff;
-}
 
 .mainbody{
 	width:100%;
@@ -130,7 +109,6 @@
 	width:780px;
 	padding-top: 60px;
 	margin-left: 10px;
-	/*padding-bottom: 45px;*/
 }
 .fl_con h2{
 	font-size: 20px;
@@ -139,7 +117,7 @@
 }
 .fl_con .sub{
 	font-size: 15px;
-	color: #999;
+	color: #ccc;
 	display: block;
 	margin-bottom: 50px;
 }

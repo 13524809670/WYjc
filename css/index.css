@@ -1,112 +1,35 @@
-body{
-	text-shadow:1px 1px 1px #999;
-}
-a:focus{outline: none;}
 h3{
 	font-weight: 400;
 	font-size: 18px;
 	color:#222;
 	text-indent: -11px;
 }
-.main{
-	position: absolute;
-	width:1920px;
-	left:50%;
-	top:0;
-	margin-left: -960px;
-}
-/*head 样式*/
-.header_wrap{
-	width: 1105px;
-	margin:0 auto;
-	height: 103px;
-	line-height: 100px;
-}
-.header_wrap img{
-	display: block;
-	width:114px;
-	height: 70px;
-	float: left;
-	margin:15px 0;
-}
-.header_wrap .fr_nav{
-	width: 556px;
-	float: right;
-	margin:30px 0;
-}
-.header_wrap .fr_nav li{
-	float: left;
-	margin-left:1px;
-}
-.header_wrap .fr_nav li,
-.header_wrap .fr_nav li a{
-	width: 110px;
-	height: 45px;
-	line-height: 45px;
-	text-align: center;
-	display: block;
-	color:#222;
-}
-.header_wrap .fr_nav li .on{
-	background: #00e7ff;
-}
-.header_wrap .fr_nav li a:hover{
-	background: #00e7ff;
-}
 
-
-/*banner 样式*/
-.banner{
-	position: relative;
-	left:50%;
-	top:0px;
-	margin-left:-960px;
-	width: 1920px;
-}
-.banner .banner_pic{
-	width: 100%;
-	height:520px;
-	position: absolute;
-	z-index: 1;
-}
-.banner .banner_text{
-	position: absolute;
-	width: 280px;
-	height: 120px;
-	z-index: 99;
-	left: 1270px;
-	top:345px;
-}
-.banner .banner_btn{
-	width: 140px;
-	margin:0 auto;
-	position: absolute;
-	left:50%;
-	margin-left: -65px;
-	top:483px;
-	z-index: 99;
-}
-.banner li{
-	float: left;
-	margin-right:10px;
-}
 
 
 /*product 样式*/
 .product{
 	width: 100%;
 	text-align: center;
-	margin:580px auto 35px;
+	margin:70px auto 35px;
 }
-.product h3,
-.about h3,
-.news h3,
+.product h3 a,
+.about h3 a,
+.news h3 a,
 .contact h3{
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	color:#222;
 	text-indent: -11px;
 	text-align: center;
+	display: block;
+}
+.product h3 a:hover,
+.about h3 a:hover,
+.news h3 a:hover,
+.contact h3 a:hover,
+.about_con a:hover{
+	color: blue;
 }
 .product .border,
 .about .border,
@@ -139,10 +62,6 @@ h3{
 	color: #222;
 	text-shadow:1px 1px 1px #999;
 }
-.product .content .black{
-	background: #000;
-	color:#fff;
-}
 .product .content span:hover{
 	background: #000;
 	color:#fff; 
@@ -153,6 +72,10 @@ h3{
 .product .content .img_last{
 	margin-right:95px;
 }
+
+
+
+
 
 
 /*about 样式*/
@@ -169,7 +92,6 @@ h3{
 }
 .about_con p{
 	font-size: 14px;
-	/*text-indent: em;*/
 	line-height: 30px; 
 	text-align: center;
 	text-shadow:1px 1px 1px #999;
@@ -196,6 +118,7 @@ h3{
 }
 
 
+
 /*news 样式*/
 .news{
 	width: 100%;
@@ -216,7 +139,10 @@ h3{
 	display: block;
 	float: left;
 }
-.news_con .fr_txt p,
+.news_con #margin{
+	margin-right:150px;
+}
+.news_con .fr_txt li,
 .news_con .fr_txt a{
 	font-size: 14px;
 	color: #222;
@@ -236,23 +162,34 @@ h3{
 .news_con .fr_txt .link_last{
 	margin-top: 36px;
 }
+.news_con .fr_txt .link_last span{
+	padding-left: 20px;
+}
 .news_con .link span{
 	padding:0 10px 0 20px;
 }
 .news_con .fr_txt a:hover{
-	color: blue;
+	color: red;
 }
-.news_con .last p{
+.news_con .last li{
 	text-indent: 15px;
 	line-height: 27px;
 }
+
+
+
+
+
+
+
+
+
 
 .contact{
 	width: 100%;
 	padding-bottom: 40px;
 	background: #f8f8f8;
 	padding-top: 25px;
-	/*position: relative;*/
 }
 .contact .contact_con{
 	width: 1200px;
@@ -306,49 +243,12 @@ h3{
 }
 .contact .gotop{
 	display: block;
-	position: fixed;
+	position:fixed;
 	bottom:101px;
-	right:313px;
-	height: 40px;
-	width: 37px;
+	left:50%;
+	margin-left: 600px;
+	height: 38px;
+	width: 35px;
+	cursor: pointer;
 }
 
-/*底部样式*/
-/*.footer{
-	width: 100%;
-	background: #89d7df;
-}
-.footer_wrap{
-	width: 1200px;
-	margin:0 auto;
-	padding-top: 37px;
-	text-align: center;
-}
-.footer ul{
-	font-size: 14px;
-	color:#222;
-	width: 44%;
-	margin: 0 auto;
-}
-.footer li{
-	float: left;
-}
-.footer li .first_a{
-	margin-left: 28px;
-	display: block;
-}
-.footer li span{
-	padding:0 13px;
-}
-.footer p{
-	font-size: 14px;
-	color: #222;
-	padding:10px 0 20px 28px;
-}
-.footer li a{
-	font-size: 14px;
-	color:#222;
-}
-.footer li:hover a{
-	color: blue;
-}*/

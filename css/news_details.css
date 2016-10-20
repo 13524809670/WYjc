@@ -1,6 +1,6 @@
 .news_con{
 	width: 1168px;
-	margin:590px auto 26px;
+	margin:70px auto 26px;
 }
 .news_con a{
 	font-size: 17px;
@@ -13,7 +13,6 @@
 .news_con .link_nav li{
 	float: left;
 }
-/*.news_con .link_nav li,*/
 .news_con .link_nav li a{
 	width: 175px;
 	height: 50px;
@@ -78,17 +77,19 @@
 	margin:15px auto 32px;
 }
 .news_con .link{
-	width: 420px;
+	width: 435px;
 	margin:0 auto;
 }
 .news_con .link .first,.news_con .link .last{
 	display: block;
-	float: left;
 	margin:0 auto;
 	font-size: 14px;
 }
 .news_con .link .first{
-	padding-right: 30px;
+	float: left;
+}
+.news_con .link .last{
+	float: right;
 }
 .news_con .link .first a:hover,
 .news_con .link .last a:hover{

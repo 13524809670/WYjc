@@ -2,30 +2,16 @@
 	margin:0;
 	padding:0;
 }
-/*body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }*/  
 body, button, input, select, textarea { color:#454545; }  
-body{font:18px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;}
-button, input, select, textarea, h1, h2, h3, h4, h5, h6 { font-size:100%; }  
-h2, h3 { font-size:20px; }  
-button, input, select, textarea, label { vertical-align:middle; outline:none; }  
-img { 
-	vertical-align:middle;
-	border:none; 
-	display:inline-block;
-}  
-ul,li{
-	list-style: none;
-	/*list-style-position:inside;
-	list-style-type:georgian;*/
+body{
+	font:18px/1.5 "Helvetica Neue",
+	Helvetica,Arial,
+	"Microsoft Yahei",
+	"Hiragino Sans GB",
+	"Heiti SC",
+	"WenQuanYi Micro Hei",
+	sans-serif;
 }
-li{list-style-type: none;}
-ul{list-style-type: none;}
-a { 
-	text-decoration:none;
-	vertical-align:baseline; 
-	cursor:pointer;
-	color: #222;
-}  
 body { 
 	word-wrap:break-word; 
 	word-break:break-all; 
@@ -33,24 +19,53 @@ body {
 	position: relative;
 	overflow-x: hidden;
 	text-shadow:1px 1px 1px #999;
+	font-family: "微软雅黑";
 	} 
+button, input, select, textarea, h1, h2, h3, h4, h5, h6 { font-size:100%; }  
+h2, h3 { font-size:20px; }  
+button, input, select, textarea, label { 
+	vertical-align:middle; 
+	outline:none; 
+	cursor: pointer;
+	resize:none;
+}  
+img { 
+	vertical-align:middle;
+	border:none; 
+	display:inline-block;
+}  
+ul,li{
+	list-style: none;
+}
+ul,li{list-style-type: none;}
 
-/*清除浮动*/
+/*IE8去除虚线框*/
+a:focus{outline: none;}
+a { 
+	text-decoration:none;
+	vertical-align:baseline; 
+	cursor:pointer;
+	color: #222;
+}  
+/*清除浮动 3种方式*/
 .clear{clear: both;}
 .clear_both{
 	content: "";
 	display: block;
 	clear: both;
 }
-
-
-a:focus{outline: none;}
+/*.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+}*/
 h3{
 	font-weight: 400;
 	font-size: 18px;
 	color:#222;
-	text-indent: -11px;
 }
+
 .main{
 	position: absolute;
 	width:1920px;
@@ -58,6 +73,7 @@ h3{
 	top:0;
 	margin-left: -960px;
 }
+
 /*head 样式*/
 .header_wrap{
 	width: 1105px;
@@ -90,49 +106,82 @@ h3{
 	display: block;
 	color:#222;
 }
-.header_wrap .fr_nav li .on{
-	background: #00e7ff;
-}
+
 .header_wrap .fr_nav li a:hover{
 	background: #00e7ff;
+	-webkit-transition:background 3s;
+    transition:background 3s;
 }
-
 
 /*banner 样式*/
 .banner{
-	position: relative;
-	left:50%;
-	top:0px;
-	margin-left:-960px;
-	width: 1920px;
-}
-.banner .banner_pic{
 	width: 100%;
-	height:520px;
-	position: absolute;
-	z-index: 1;
+	height: 520px;
+	position: relative;
+	overflow: hidden;
 }
-.banner .banner_text{
-	position: absolute;
-	width: 280px;
-	height: 120px;
-	z-index: 99;
-	left: 1270px;
-	top:345px;
-}
-.banner .banner_btn{
-	width: 140px;
-	margin:0 auto;
+.pic_box{
 	position: absolute;
 	left:50%;
-	margin-left: -65px;
-	top:483px;
-	z-index: 99;
+	margin-left: -960px;
 }
-.banner li{
+.pic_box li{
+	position: absolute;
+	left: 0;
+	top:0;
+	/*display: none;*/
+}
+.banner_btn{
+	width: 90px;
+	position: absolute;
+	left: 50%;
+	margin-left: -45px;
+	bottom:5px;
+}
+.banner_btn li{
 	float: left;
-	margin-right:10px;
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	background-image: url(../images/index_btn_06.png);
+	cursor: pointer;
 }
+.banner_btn li.current{background-image: url(../images/public_03.png);}
+
+
+
+/*分页样式*/
+.pro_pages{
+	width: 155px;
+	margin:30px auto 0;
+}
+.pro_pages li{
+	float: left;
+}
+.pro_pages li a {
+	width: 30px;
+	height: 32px;
+	border:1px solid #999;
+	display: block;
+	line-height: 32px;
+	text-align: center;
+}
+.pro_pages .left_right{
+	margin:0 14px;
+}
+.pro_pages .none{
+	border:none;
+}
+.pro_pages li a:hover{
+	background: #999;
+	color: #fff;
+}
+.pro_pages li .none:hover{
+	background: #fff;
+	color: #222;
+}
+
+
 
 /*底部样式*/
 .footer{
@@ -148,28 +197,30 @@ h3{
 .footer ul{
 	font-size: 14px;
 	color:#222;
-	width: 590px;
-	height: 26px;
-	line-height: 26px;
+	width: 526px;
 	margin:0 auto;
-	padding-top: 26px;
+	padding-top: 28px;
 }
 .footer li{
 	float: left;
 }
-.footer li .first_a{
-	margin-left: 28px;
-	display: block;
-}
 .footer li a{
 	font-size: 14px;
 	color:#222;
+	display: block;
+	padding:0 8px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
 }
 .footer li:hover a{
 	color: blue;
 }
 .footer li span{
-	padding:0 13px;
+	padding-left:8px;
+}
+.footer li a:hover span{
+	color: #222;
 }
 .footer .last_span{
 	font-size: 14px;

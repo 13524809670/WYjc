@@ -5,18 +5,20 @@
 	<title>产品中心</title>
 	<link rel="stylesheet" href="css/public.css" />
 	<link rel="stylesheet" href="css/product.css" />
+	<script type="text/javascript" src="js/Carousel.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body>
 	<div class="main">
 	<!-- 头部结构 -->
 		<div class="header_wrap">
-			<img src="images/public_a_03.png" alt="" class="fl_logo">
+			<a href=""><img src="images/public_a_03.png" alt="" class="fl_logo"></a>
 			<ul class="fr_nav">
-				<li><a href="#">首页</a></li>
-				<li><a href="#">公司介绍</a></li>
-				<li><a href="#">新闻中心</a></li>
-				<li><a href="#" class="on">产品中心</a></li>
-				<li><a href="#">联系我们</a></li>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="about.html">公司介绍</a></li>
+				<li><a href="news.html">新闻中心</a></li>
+				<li><a href="product.html">产品中心</a></li>
+				<li><a href="contact.html">联系我们</a></li>
 			</ul>
 		</div>
 		<!-- 清除浮动 -->
@@ -24,67 +26,64 @@
 
 		<!-- 轮播图结构 -->
 		<div class="banner">
-			<ul class="banner_pic">
+			<ul class="pic_box">
 				<li>
-					<a href="#">
-						<img src="images/index_banner_02.jpg" alt="" class="banner_pic">
+					<a href="index.html">
+						<img src="images/contact.banner_02.jpg" alt="" />
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<img src="images/index_banner_02.jpg" alt="" class="banner_pic">
+					<a href="about.html">
+						<img src="images/index_banner_02.jpg" alt="" />
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<img src="images/index_banner_02.jpg" alt="" class="banner_pic">
+					<a href="produxt.html">
+						<img src="images/news_banner_02.jpg" alt="" />
 					</a>
 				</li>
 			</ul>
-			<div class="banner_text">
-				<img src="images/banner_txt_03.png" alt="" />
-			</div>
 			<ul class="banner_btn">
-				<li><img src="images/public_03.png" alt=""></li>
-				<li><img src="images/index_btn_06.png" alt=""></li>
-				<li><img src="images/index_btn_06.png" alt=""></li>
+				<li class="current"></li>
+				<li></li>
+				<li></li>
 			</ul>
 		</div>
 
 		<!-- 产品中心样式 -->
 		<div class="pro_con">
-			<h3>产品中心</h3>
+			<h3><a href="pro_details.html">产品中心</a></h3>
 			<h4>COMPANY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROFILE</h4>
 			<span class="border_solid"></span>
 			<div class="pro_wrap">
 				<ul class="pro_nav">
 					<li>
-						<a href="#">新品上市</a>
+						<a href="pro_details.html">新品上市</a>
 					</li>
 
 					<li>
-						<a href="#" class="padding">卫生陶瓷</a>
+						<a href="pro_details.html" class="padding">卫生陶瓷</a>
 					</li>
 
 					<li>
-						<a href="#">休闲卫浴</a>
+						<a href="pro_details.html">休闲卫浴</a>
 					</li>
 
 					<li>
-						<a href="#" class="padding">龙头五金</a>
+						<a href="pro_details.html" class="padding">龙头五金</a>
 					</li>
 
 					<li>
-						<a href="#">浴室家具</a>
+						<a href="pro_details.html">浴室家具</a>
 						<img src="images/product_icon_03.png" alt="">
 					</li>
 
 					<li>
-						<a href="#" class="padding">智能卫浴</a>
+						<a href="pro_details.html" class="padding">智能卫浴</a>
 					</li>
 
 					<li>
-						<a href="#">厨房用品 </a>
+						<a href="pro_details.html">厨房用品 </a>
 					</li>
 
 					<div class="clear"></div>
@@ -94,31 +93,31 @@
 			</div>
 			<ul class="pro_pic">
 				<li>
-					<a href="#">
+					<a href="product.html">
 						<img src="images/product_03.jpg" alt="" class="left">肖邦、白	F2
 					</a>
 				</li>
 
 				<li>
-					<a href="#" class="margin">
+					<a href="product.html" class="margin">
 						<img src="images/product_03.jpg" alt="">肖邦、白	F2
 					</a>
 				</li>
 
 				<li>
-					<a href="#">
+					<a href="product.html">
 						<img src="images/product_03.jpg" alt="">肖邦、白	F2
 					</a>
 				</li>
 
 				<li>
-					<a href="#" class="margin">
+					<a href="product.html" class="margin">
 						<img src="images/product_03.jpg" alt="">肖邦、白	F2
 					</a>
 				</li>
 
 				<li>
-					<a href="#">
+					<a href="product.html">
 						<img src="images/product_03.jpg" alt="">肖邦、白	F2
 					</a>
 				</li>
@@ -126,10 +125,10 @@
 				<div class="clear"></div>
 			</ul>
 			<ul class="pro_pages">
-				<li><a href="#" class="bgcolor">1</a></li>
-				<li><a href="#" class="left_right">2</a></li>
-				<li><a href="#" class="none">...</a></li>
-				<li><a href="#">5</a></li>
+				<li><a href="javascript:;">1</a></li>
+				<li><a href="javascript:;" class="left_right">2</a></li>
+				<li><a href="javascript:;" class="none">...</a></li>
+				<li><a href="javascript:;">5</a></li>
 				<div class="clear"></div>
 			</ul>
 		</div>
@@ -146,30 +145,30 @@
 						<tr>
 							<td class="indent">
 								<img src="images/product_icon_07.png" alt="">
-								<a href="#">整体空间设计理念</a>
+								<a href="javascript:;">整体空间设计理念</a>
 							</td>
 							<td class="right">
 								<img src="images/product_icon_07.png" alt="">
-								<a href="#">健康的环保材质</a>
+								<a href="javascript:;">健康的环保材质</a>
 							</td>
 							<td>
 								<img src="images/product_icon_07.png" alt="">
-								<a href="#">人性化的储物空间   健康的环保材质</a>
+								<a href="javascript:;">人性化的储物空间   健康的环保材质</a>
 							</td>
 						</tr>
 
 						<tr>
 							<td class="indent">
 								<img src="images/product_icon_07.png" alt="">
-								<a href="#">卓越的放水性能</a>
+								<a href="javascript:;">卓越的放水性能</a>
 							</td>
 							<td class="right">
 								<img src="images/product_icon_07.png" alt="">
-								<a href="#">人性化的储物空间</a>
+								<a href="javascript:;">人性化的储物空间</a>
 							</td>
 							<td>
 								<img src="images/product_icon_07.png" alt="">
-								<a href="#">整体的空间设计理念   卓越的放水性能</a>
+								<a href="javascript:;">整体的空间设计理念   卓越的放水性能</a>
 							</td>
 						</tr>
 					</table>
@@ -180,33 +179,32 @@
 						<tr>
 							<td class="indent">
 								<img src="images/product_icon_07.png" alt="">
-								<a href="#">EO 几环保漆面</a>
+								<a href="javascript:;">EO 几环保漆面</a>
 							</td>
 							<td class="right">
 								<img src="images/product_icon_07.png" alt="">
-								<a href="#">防潮基材</a>
+								<a href="javascript:;">防潮基材</a>
 							</td>
 							<td>
 								<img src="images/product_icon_07.png" alt="">
-								<a href="#">人性化的储物空间    健康的环保材质</a>
+								<a href="javascript:;">人性化的储物空间    健康的环保材质</a>
 							</td>
 						</tr>
 
 						<tr>
 							<td class="indent">
 								<img src="images/product_icon_07.png" alt="">
-								<a href="#">优质五金配件</a>
+								<a href="javascript:;">优质五金配件</a>
 							</td>
 							<td class="right">
 								<img src="images/product_icon_07.png" alt="">
-								<a href="#">优质柜镜</a>
+								<a href="javascript:;">优质柜镜</a>
 							</td>
 							<td>
 								<img src="images/product_icon_07.png" alt="">
-								<a href="#">整体的空间设计理念   卓越的放水性能</a>
+								<a href="javascript:;">整体的空间设计理念   卓越的放水性能</a>
 							</td>
 						</tr>
-						<!-- <div class="clear"></div> -->
 					</table>
 					<div class="clear"></div>
 				</div>
@@ -220,17 +218,21 @@
 		<div class="footer">
 			<div class="footer_wrap">
 				<ul>
-					<li><a href="#" class="first_a">人力资源<span>|</span></a></li>
-					<li><a href="#">新闻中心<span>|</span></a></li>
-					<li><a href="#">网络销售<span>|</span></a></li>
-					<li><a href="#">运营商加盟<span>|</span></a></li>
-					<li><a href="#">联系我们<span>|</span></a></li>
-					<li><a href="#">网站地图</a></li>
+					<li><a href="about.html" class="first_a">人力资源<span>|</span></a></li>
+					<li><a href="news.html">新闻中心<span>|</span></a></li>
+					<li><a href="contact.html">网络销售<span>|</span></a></li>
+					<li><a href="contact.html">运营商加盟<span>|</span></a></li>
+					<li><a href="contact.html">联系我们<span>|</span></a></li>
+					<li><a href="contact.html">网站地图</a></li>
 					<div class="clear"></div>
 					<span class="last_span">版权为今驰卫浴建材有限公司所有@2013闽ICP备11009004号-1</span>
 				</ul>
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		$(".fr_nav li").eq(3).css("background","#00e7ff");
+		$(".fr_nav li a").eq(3).css("color","#fff")
+	</script>
 </body>
 </html>

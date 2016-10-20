@@ -1,11 +1,11 @@
 .body_wrap{
 	width:1200px;
-	margin:580px auto 0;
+	margin:70px auto 0;
 	padding-bottom: 45px;
 }
 .body_wrap .first_ul{
 	width: 630px;
-	margin:0 auto 90px;
+	margin:0 auto 53px;
 }
 .first_ul li{
 	float: left;
@@ -51,13 +51,15 @@
 	position: absolute;
 	left:0;
 	top:0;
+	height: 500px;
+	width:100%;
 }
 .img_con .mask{
 	position: absolute;
 	left:0;
-	bottom:0;
+	top:450px;
 	width: 100%;
-	height: 120px;
+	height: 100px;
 	background: #000;
 	-moz-opacity:0.4;
 	-khtml-opacity: 0.4;
@@ -65,11 +67,15 @@
 	filter:alpha(opacity=40);
     text-align: center;
 }
-.mask p{
+.mask .top{
+	padding:25px 0 10px 0;
+}
+.mask span{
 	text-align: center;
 	font-size: 14px;
 	color: #fff;
-	margin-top: 25px;
+	z-index: 99;
+	display: block;
 }
 
 
@@ -144,4 +150,7 @@
 }
 .slide .last{
 	border-bottom:3px solid #ccc;
+}
+.slide p:hover{
+	color:blue;
 }

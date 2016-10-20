@@ -1,22 +1,24 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>新闻中心</title>
 	<link rel="stylesheet" href="css/news.css" />
 	<link rel="stylesheet" href="css/public.css" />
+	<script type="text/javascript" src="js/Carousel.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body>
 	<div class="main">
 	<!-- 头部结构 -->
 		<div class="header_wrap">
-			<img src="images/public_a_03.png" alt="" class="fl_logo">
+			<a href="index.html"><img src="images/public_a_03.png" alt="" class="fl_logo"></a>
 			<ul class="fr_nav">
-				<li><a href="#">首页</a></li>
-				<li><a href="#">公司介绍</a></li>
-				<li><a href="#" class="on">新闻中心</a></li>
-				<li><a href="#">产品中心</a></li>
-				<li><a href="#">联系我们</a></li>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="about.html">公司介绍</a></li>
+				<li><a href="news.html">新闻中心</a></li>
+				<li><a href="product.html">产品中心</a></li>
+				<li><a href="contact.html">联系我们</a></li>
 			</ul>
 		</div>
 		<!-- 清除浮动 -->
@@ -24,99 +26,96 @@
 
 		<!-- 轮播图结构 -->
 		<div class="banner">
-			<ul class="banner_pic">
+			<ul class="pic_box">
 				<li>
-					<a href="#">
-						<img src="images/index_banner_02.jpg" alt="" class="banner_pic">
+					<a href="index.html">
+						<img src="images/contact.banner_02.jpg" alt="" />
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<img src="images/index_banner_02.jpg" alt="" class="banner_pic">
+					<a href="about.html">
+						<img src="images/index_banner_02.jpg" alt="" />
 					</a>
 				</li>
 				<li>
-					<a href="#">
-						<img src="images/index_banner_02.jpg" alt="" class="banner_pic">
+					<a href="produxt.html">
+						<img src="images/news_banner_02.jpg" alt="" />
 					</a>
 				</li>
 			</ul>
-			<div class="banner_text">
-				<img src="images/banner_txt_03.png" alt="" />
-			</div>
 			<ul class="banner_btn">
-				<li><img src="images/public_03.png" alt=""></li>
-				<li><img src="images/index_btn_06.png" alt=""></li>
-				<li><img src="images/index_btn_06.png" alt=""></li>
+				<li class="current"></li>
+				<li></li>
+				<li></li>
 			</ul>
 		</div>
 
 		<!-- 新闻内容 -->
 		<div class="news_con">
 			<ul class="link_nav">
-				<li><a href="#">公司新闻</a></li>
-				<li><a href="#" class="color">业界动态</a></li>
-				<li><a href="#">媒体报道</a></li>
+				<li><a href="news.html" class="selected">公司新闻</a></li>
+				<li><a href="pro_details.html" class="color">业界动态</a></li>
+				<li><a href="news_details.html">媒体报道</a></li>
 				<div class="clear"></div>
 			</ul>
 			<div class="clear"></div>
 			<div class="title">
-				<span class="fl_span">信息标题</span>
+				<h1 class="fl_span">信息标题</h1>
 				<span class="fr_span">发布日期</span>
 			</div>
 			<ul class="news_ul">
 				<li>
 					<img src="images/news_icon_03.png" alt="">
-					<a href="#">今驰卫浴再度荣获 ”中国工业百强称号”</a>
+					<a href="javascript:;">今驰卫浴再度荣获 ”中国工业百强称号”</a>
 					<span>2016-1-18</span>
 				</li>
 				<li>
 					<img src="images/news_icon_03.png" alt="">
-					<a href="#">今驰董事长邓申伟受邀出席首届川商返乡发展大会并做主题演讲</a>
+					<a href="javascript:;">今驰董事长邓申伟受邀出席首届川商返乡发展大会并做主题演讲</a>
 					<span>2016-1-18</span>
 				</li>
 				<li>
 					<img src="images/news_icon_03.png" alt="">
-					<a href="#">国帝2015年度总结大会暨2016年夏季新品发布会成功举办 </a>
+					<a href="javascript:;">国帝2015年度总结大会暨2016年夏季新品发布会成功举办 </a>
 					<span>2016-1-18</span>
 				</li>
 				<li>
 					<img src="images/news_icon_03.png" alt="">
-					<a href="#">今驰董事长邓申伟受邀出席首届川商返乡发展大会并做主题演讲</a>
+					<a href="javascript:;">今驰董事长邓申伟受邀出席首届川商返乡发展大会并做主题演讲</a>
 					<span>2016-1-18</span>
 				</li>
 				<li>
 					<img src="images/news_icon_03.png" alt="">
-					<a href="#">今驰卫浴再度荣获 ”中国工业百强称号”</a>
+					<a href="javascript:;">今驰卫浴再度荣获 ”中国工业百强称号”</a>
 					<span>2016-1-18</span>
 				</li>
 				<li>
 					<img src="images/news_icon_03.png" alt="">
-					<a href="#">今驰卫浴再度荣获 ”中国工业百强称号”</a>
+					<a href="javascript:;">今驰卫浴再度荣获 ”中国工业百强称号”</a>
 					<span>2016-1-18</span>
 				</li>
 				<li>
 					<img src="images/news_icon_03.png" alt="">
-					<a href="#">今驰董事长邓申伟受邀出席首届川商返乡发展大会并做主题演讲</a>
+					<a href="javascript:;">今驰董事长邓申伟受邀出席首届川商返乡发展大会并做主题演讲</a>
 					<span>2016-1-18</span>
 				</li>
 				<li>
 					<img src="images/news_icon_03.png" alt="">
-					<a href="#">今驰卫浴再度荣获 ”中国工业百强称号”</a>
+					<a href="javascript:;">今驰卫浴再度荣获 ”中国工业百强称号”</a>
 					<span>2016-1-18</span>
 				</li>
 				<li>
 					<img src="images/news_icon_03.png" alt="">
-					<a href="#">今驰卫浴再度荣获 ”中国工业百强称号”</a>
+					<a href="javascript:;">今驰卫浴再度荣获 ”中国工业百强称号”</a>
 					<span>2016-1-18</span>
 				</li>
 				<div class="clear"></div>
 			</ul>
-			<ul class="pages">
-				<li><a href="#" class="selected">1</a></li>
-				<li><a href="#">2</a></li>
-				<li><a href="#">...</a></li>
-				<li><a href="#">5</a></li>
+			<ul class="pro_pages">
+				<li><a href="javascript:;">1</a></li>
+				<li><a href="javascript:;" class="left_right">2</a></li>
+				<li><a href="javascript:;" class="none">...</a></li>
+				<li><a href="javascript:;">5</a></li>
 				<div class="clear"></div>
 			</ul>
 		</div>
@@ -125,17 +124,41 @@
 		<div class="footer">
 			<div class="footer_wrap">
 				<ul>
-					<li><a href="#" class="first_a">人力资源<span>|</span></a></li>
-					<li><a href="#">新闻中心<span>|</span></a></li>
-					<li><a href="#">网络销售<span>|</span></a></li>
-					<li><a href="#">运营商加盟<span>|</span></a></li>
-					<li><a href="#">联系我们<span>|</span></a></li>
-					<li><a href="#">网站地图</a></li>
+					<li>
+						<a href="about.html">人力资源
+							<span>|</span>
+						</a>
+					</li>
+					<li>
+						<a href="news.html">新闻中心
+							<span>|</span>
+						</a>
+					</li>
+					<li>
+						<a href="conduct.html">网络销售
+							<span>|</span>
+						</a>
+					</li>
+					<li>
+						<a href="conduct.html">运营商加盟
+							<span>|</span>
+						</a>
+					</li>
+					<li>
+						<a href="conduct.html">联系我们
+							<span>|</span>
+						</a>
+					</li>
+					<li><a href="conduct.html">网站地图</a></li>
 					<div class="clear"></div>
 					<span class="last_span">版权为今驰卫浴建材有限公司所有@2013闽ICP备11009004号-1</span>
 				</ul>
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		$(".fr_nav li").eq(2).css("background","#00e7ff");
+		$(".fr_nav li a").eq(2).css("color","#fff")
+	</script>
 </body>
 </html>
