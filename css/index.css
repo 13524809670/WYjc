@@ -5,9 +5,7 @@ h3{
 	text-indent: -11px;
 }
 
-
-
-/*product 样式*/
+/*产品中心样式*/
 .product{
 	width: 100%;
 	text-align: center;
@@ -27,7 +25,6 @@ h3{
 .product h3 a:hover,
 .about h3 a:hover,
 .news h3 a:hover,
-.contact h3 a:hover,
 .about_con a:hover{
 	color: blue;
 }
@@ -74,11 +71,7 @@ h3{
 }
 
 
-
-
-
-
-/*about 样式*/
+/*关于我们样式*/
 .about{
 	width:100%;
 	background: #f8f8f8;
@@ -119,7 +112,7 @@ h3{
 
 
 
-/*news 样式*/
+/*新闻中心样式*/
 .news{
 	width: 100%;
 	margin-bottom:40px;
@@ -178,13 +171,7 @@ h3{
 
 
 
-
-
-
-
-
-
-
+/*联系我们样式*/
 .contact{
 	width: 100%;
 	padding-bottom: 40px;

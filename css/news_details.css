@@ -14,15 +14,12 @@
 	float: left;
 }
 .news_con .link_nav li a{
-	width: 175px;
-	height: 50px;
+	width: 174px;
+	height: 57px;
 	border:1px solid #999;
-	line-height: 50px;
+	line-height: 57px;
 	text-align: center;
-}
-.news_con .link_nav li a{
 	display: block;
-	float: left;
 }
 .news_con .link_nav .margin{
 	margin:0 138px;
@@ -35,6 +32,7 @@
 	background: #999;
 	color:#fff;
 }
+
 
 .news_con .title{
 	width: 415px;

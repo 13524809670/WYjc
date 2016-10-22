@@ -18,7 +18,7 @@ window.onload=function(){
 		num=i;		
 	}	
 	//轮播间隔时间为 3s
-	timer=setInterval(fn,1200);
+	timer=setInterval(fn,1000);
 
 	//当鼠标悬浮banner是  取消定时器
 	$('.banner').hover(function(e) {
@@ -28,7 +28,7 @@ window.onload=function(){
 	//取消定时器 3s 后继续轮播 
 	function(){
 		clearInterval(timer);
-		timer=setInterval(fn,1200)
+		timer=setInterval(fn,1000)
 	});
 
 	$('.banner_btn li').click(fn1);

@@ -29,17 +29,17 @@
 			<ul class="pic_box">
 				<li>
 					<a href="index.html">
-						<img src="images/contact.banner_02.jpg" alt="" />
+						<img src="images/index_02.jpg" alt="" />
 					</a>
 				</li>
 				<li>
 					<a href="about.html">
-						<img src="images/index_banner_02.jpg" alt="" />
+						<img src="images/news_banner_02.jpg" alt="" />
 					</a>
 				</li>
 				<li>
-					<a href="produxt.html">
-						<img src="images/news_banner_02.jpg" alt="" />
+					<a href="product.html">
+						<img src="images/contact_us_02.jpg" alt="" />
 					</a>
 				</li>
 			</ul>
@@ -53,9 +53,9 @@
 		<div class="mainbody">
 			<div class="body_wrap">
 				<ul class="first_ul">
-					<li><a href="#" class="on">产品详情</a></li>
-					<li><a href="#" class="margin">在线联系</a></li>
-					<li><a href="#">产品参数</a></li>
+					<li><a href="product.html" class="on">产品详情</a></li>
+					<li><a href="contact.html" class="margin">在线联系</a></li>
+					<li><a href="product.html">产品参数</a></li>
 					<div class="clear"></div>
 				</ul>
 				<p class="first_p">
@@ -157,14 +157,16 @@
 		</div>
 	</div>
 	<script type="text/javascript">
+	//下拉遮罩
 	$(document).ready(function(){
 		$(".img_con").hover(function(){
-			$(".mask").stop().animate({top:"400px"},{queue:false,duration:100});
+			$(".mask").stop().animate({top:"390px"},{queue:false,duration:200});
 		},
 		function(){
-			$(".mask").stop().animate({top:"450px"},{queue:false,duration:100});
+			$(".mask").stop().animate({top:"520px"},{queue:false,duration:200});
 		});
 
+		//头部导航选中状态
 		$(".fr_nav li").eq(3).css("background","#00e7ff");
 		$(".fr_nav li a").eq(3).css("color","#fff")
 	});

@@ -25,16 +25,17 @@
 	border-top: 2px solid #999;
 }
 .pro_wrap .pro_nav{
-	width:776px;
+	width:800px;
 	margin:0 auto;
 }
 .pro_nav li a{
-	width: 57px;
+	width: 60px;
 	height: 46px;
 	line-height: 46px;
 	font-size: 14px;
 	color: #222;
 	display: block;
+	text-align: center;
 }
 .pro_nav li a:hover{
 	color: blue;
