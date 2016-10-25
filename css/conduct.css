@@ -96,6 +96,7 @@ form img{
 	border:1px solid #ccc;
 	display: block;
 	float: left;
+	cursor: pointer;
 }
 form .middle{
 	width: 63px;
