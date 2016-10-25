@@ -205,28 +205,22 @@ h3{
 }
 
 .contact_con .left p,
-.contact_con .middle p,
-.contact_con .right p{
+.contact_con .middle p{
 	padding-left: 25px;
 }
+.contact_con .right p span{
+	font-size: 14px;
+}
+.contact_con .right p{
+	height: 50px;
+}
 .contact_con .right img{
-	vertical-align: top;
-	width: 33px;
-	height: 33px;
 	display: block;
 	float: left;
-	padding-right: 30px;
-	padding-top: 8px;
+	margin:8px 20px 0 30px;
 }
-.contact_con .right li{
-	vertical-align: top;
-}
-.contact_con ul{
-	float: left;
-}
-.contact_con li{
-	font-size: 14px ;
-	color:#222;
+.contact_con .right span{
+	display: block;
 }
 .contact .gotop{
 	display: block;
