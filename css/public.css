@@ -101,10 +101,11 @@ h3{
 	display: block;
 	color:#222;
 }
-
 .header_wrap .fr_nav li a:hover{
 	background: #00e7ff;
 }
+
+
 
 /*banner 样式*/
 .banner{
